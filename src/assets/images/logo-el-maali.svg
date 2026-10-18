@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 620" width="100%" height="100%" fill="none">
+  <!-- Official Logo: El-Maali Association for Science and Education (Transparent Background) -->
+  <defs>
+    <!-- Laurel Wreath Gradient (Lime-to-Emerald Green) -->
+    <linearGradient id="wreathGradLeft" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9ad53d" />
+      <stop offset="35%" stop-color="#69c142" />
+      <stop offset="70%" stop-color="#009c4d" />
+      <stop offset="100%" stop-color="#006c36" />
+    </linearGradient>
+
+    <linearGradient id="wreathGradRight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#9ad53d" />
+      <stop offset="35%" stop-color="#69c142" />
+      <stop offset="70%" stop-color="#009c4d" />
+      <stop offset="100%" stop-color="#006c36" />
+    </linearGradient>
+
+    <!-- Calligraphy Cyan-to-Royal Blue Gradient -->
+    <linearGradient id="calligraphyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00aeef" />
+      <stop offset="45%" stop-color="#0092d8" />
+      <stop offset="85%" stop-color="#005bac" />
+      <stop offset="100%" stop-color="#004791" />
+    </linearGradient>
+
+    <!-- Emerald Text Gradient -->
+    <linearGradient id="greenSubTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#009e4f" />
+      <stop offset="100%" stop-color="#007e3e" />
+    </linearGradient>
+
+    <filter id="leafShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="1.5" stdDeviation="1.5" flood-color="#000" flood-opacity="0.1" />
+    </filter>
+  </defs>
+
+  <g transform="translate(0, 10)">
+    <!-- 1. The Laurel Wreath (الإكليل الأخضر) -->
+    <g transform="translate(250, 240)">
+      
+      <!-- Right Laurel Branch -->
+      <g filter="url(#leafShadow)">
+        <!-- Main Stem Arc -->
+        <path d="M 0 170 C 130 170, 210 50, 150 -130 C 145 -142, 138 -155, 130 -168"
+              stroke="url(#wreathGradRight)" stroke-width="6" stroke-linecap="round" fill="none" />
+
+        <!-- Leaf pairs on the Right branch -->
+        <!-- Pair 1 (Bottom) -->
+        <path d="M 30 162 C 60 168, 75 155, 65 138 C 50 142, 38 152, 30 162 Z" fill="url(#wreathGradRight)" />
+        <path d="M 45 152 C 78 148, 92 130, 80 115 C 65 125, 52 138, 45 152 Z" fill="url(#wreathGradRight)" />
+
+        <!-- Pair 2 -->
+        <path d="M 75 130 C 112 128, 126 108, 112 92 C 96 102, 85 116, 75 130 Z" fill="url(#wreathGradRight)" />
+        <path d="M 98 105 C 138 98, 150 75, 132 60 C 116 72, 105 88, 98 105 Z" fill="url(#wreathGradRight)" />
+
+        <!-- Pair 3 (Mid) -->
+        <path d="M 120 70 C 160 58, 168 32, 146 18 C 132 32, 124 52, 120 70 Z" fill="url(#wreathGradRight)" />
+        <path d="M 135 30 C 172 12, 175 -15, 150 -28 C 138 -12, 132 10, 135 30 Z" fill="url(#wreathGradRight)" />
+
+        <!-- Pair 4 (Upper) -->
+        <path d="M 140 -15 C 172 -38, 168 -65, 142 -76 C 132 -60, 130 -38, 140 -15 Z" fill="url(#wreathGradRight)" />
+        <path d="M 135 -60 C 162 -85, 152 -112, 126 -120 C 120 -102, 122 -80, 135 -60 Z" fill="url(#wreathGradRight)" />
+
+        <!-- Pair 5 (Top tip) -->
+        <path d="M 120 -105 C 142 -132, 128 -156, 102 -160 C 98 -142, 105 -122, 120 -105 Z" fill="url(#wreathGradRight)" />
+        <path d="M 98 -148 C 112 -175, 92 -195, 70 -192 C 72 -172, 82 -158, 98 -148 Z" fill="url(#wreathGradRight)" />
+        
+        <!-- Top Terminal Leaf Right -->
+        <path d="M 70 -190 C 80 -215, 55 -225, 38 -215 C 45 -198, 56 -190, 70 -190 Z" fill="url(#wreathGradRight)" />
+      </g>
+
+      <!-- Left Laurel Branch (Mirrored) -->
+      <g filter="url(#leafShadow)" transform="scale(-1, 1)">
+        <!-- Main Stem Arc -->
+        <path d="M 0 170 C 130 170, 210 50, 150 -130 C 145 -142, 138 -155, 130 -168"
+              stroke="url(#wreathGradLeft)" stroke-width="6" stroke-linecap="round" fill="none" />
+
+        <!-- Leaf pairs on the Left branch -->
+        <path d="M 30 162 C 60 168, 75 155, 65 138 C 50 142, 38 152, 30 162 Z" fill="url(#wreathGradLeft)" />
+        <path d="M 45 152 C 78 148, 92 130, 80 115 C 65 125, 52 138, 45 152 Z" fill="url(#wreathGradLeft)" />
+
+        <path d="M 75 130 C 112 128, 126 108, 112 92 C 96 102, 85 116, 75 130 Z" fill="url(#wreathGradLeft)" />
+        <path d="M 98 105 C 138 98, 150 75, 132 60 C 116 72, 105 88, 98 105 Z" fill="url(#wreathGradLeft)" />
+
+        <path d="M 120 70 C 160 58, 168 32, 146 18 C 132 32, 124 52, 120 70 Z" fill="url(#wreathGradLeft)" />
+        <path d="M 135 30 C 172 12, 175 -15, 150 -28 C 138 -12, 132 10, 135 30 Z" fill="url(#wreathGradLeft)" />
+
+        <path d="M 140 -15 C 172 -38, 168 -65, 142 -76 C 132 -60, 130 -38, 140 -15 Z" fill="url(#wreathGradLeft)" />
+        <path d="M 135 -60 C 162 -85, 152 -112, 126 -120 C 120 -102, 122 -80, 135 -60 Z" fill="url(#wreathGradLeft)" />
+
+        <path d="M 120 -105 C 142 -132, 128 -156, 102 -160 C 98 -142, 105 -122, 120 -105 Z" fill="url(#wreathGradLeft)" />
+        <path d="M 98 -148 C 112 -175, 92 -195, 70 -192 C 72 -172, 82 -158, 98 -148 Z" fill="url(#wreathGradLeft)" />
+        
+        <path d="M 70 -190 C 80 -215, 55 -225, 38 -215 C 45 -198, 56 -190, 70 -190 Z" fill="url(#wreathGradLeft)" />
+      </g>
+
+      <!-- Crossed base stems ribbon/knot -->
+      <path d="M -25 160 Q 0 178 25 160 Q 0 185 -25 160 Z" fill="#006c36" />
+    </g>
+
+    <!-- 2. The Signature Kufic Calligraphy «المعالي» inside the Wreath -->
+    <g transform="translate(250, 230)" fill="url(#calligraphyGrad)">
+      
+      <!-- Four Tall Vertical Shafts of "ا لـ ا لـ" with beveled 45-degree top cuts -->
+      <!-- Shaft 1 (Rightmost) -->
+      <polygon points="58,-210 74,-226 74,40 58,40" />
+      <!-- Shaft 2 -->
+      <polygon points="26,-210 42,-226 42,40 26,40" />
+      <!-- Shaft 3 -->
+      <polygon points="-6,-210 10,-226 10,40 -6,40" />
+      <!-- Shaft 4 (Leftmost) -->
+      <polygon points="-38,-210 -22,-226 -22,40 -38,40" />
+
+      <!-- Horizontal Interconnecting Kufic Bars & Letters: "م ع ا ل ي" -->
+      <!-- Top connecting bar -->
+      <rect x="-68" y="30" width="145" height="15" rx="3" />
+      <!-- Middle geometric bar -->
+      <rect x="-68" y="65" width="145" height="15" rx="3" />
+      
+      <!-- Loop of the 'ع' and 'م' -->
+      <path d="
+        M -68 30
+        L -68 115
+        L -35 115
+        L -35 80
+        L -10 80
+        L -10 115
+        L 25 115
+        L 25 80
+        L 77 80
+        L 77 30
+        L 58 30
+        L 58 65
+        L -48 65
+        L -48 30
+        Z"
+      />
+
+      <!-- Lower swoop of the 'ي' curving left -->
+      <path d="
+        M -35 115
+        L -75 115
+        C -95 115, -105 100, -100 80
+        C -98 72, -90 68, -82 72
+        C -75 75, -78 85, -80 90
+        C -82 96, -78 100, -68 100
+        L -35 100
+        Z"
+      />
+
+      <!-- Two Diamond dots for the 'ي' on the left -->
+      <polygon points="-78,122 -70,114 -62,122 -70,130" />
+      <polygon points="-94,122 -86,114 -78,122 -86,130" />
+
+      <!-- Center eye of the Ayn (ع) -->
+      <rect x="-4" y="45" width="20" height="20" fill="none" stroke="url(#calligraphyGrad)" stroke-width="4" />
+    </g>
+
+    <!-- 3. Typography Below the Wreath -->
+    <g text-anchor="middle">
+      <!-- Line 1: «جمعية المعالي» in Kufic styling -->
+      <text
+        x="250"
+        y="490"
+        fill="url(#calligraphyGrad)"
+        font-family="'Cairo', 'Amiri', 'Segoe UI', system-ui, sans-serif"
+        font-size="46"
+        font-weight="900"
+        letter-spacing="0.04em"
+      >
+        جمعية المعالي
+      </text>
+
+      <!-- Line 2: «للـعـلـوم والـتـربـيـة» in Vibrant Green -->
+      <text
+        x="250"
+        y="545"
+        fill="url(#greenSubTextGrad)"
+        font-family="'Cairo', 'Amiri', 'Segoe UI', system-ui, sans-serif"
+        font-size="34"
+        font-weight="800"
+        letter-spacing="0.08em"
+      >
+        للـعـلـوم والـتـربـيـة
+      </text>
+    </g>
+  </g>
+</svg>

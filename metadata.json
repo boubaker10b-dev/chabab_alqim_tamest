@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix مشروع شباب القيم تامست",
+  "description": "الموقع الرسمي لمشروع شباب القيم تامست التابع لجمعية المعالي للعلوم والتربية - استقبال تسجيلات الأبناء والفتيات، وإدارة الأفواج التربوية والمشرفين البلديين والأنشطة.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

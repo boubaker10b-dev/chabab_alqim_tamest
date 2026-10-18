@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: 'Cairo', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    scroll-behavior: smooth;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #edf5f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #a4ccbe;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0d533d;
+}
+
+/* Print styles for official membership card */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #printableCardArea, #printableCardArea * {
+    visibility: visible;
+  }
+  #printableCardArea {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    box-shadow: none;
+    border: 1px solid #ddd;
+  }
+  #printableCohortArea, #printableCohortArea * {
+    visibility: visible;
+  }
+  #printableCohortArea {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    box-shadow: none;
+  }
+}
